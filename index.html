@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Objects</title>
+    <style>
+      img {
+        border-radius: 14px;
+        -webkit-box-shadow: 0px 0px 57px 0px rgba(0, 0, 0, 0.41);
+        -moz-box-shadow: 0px 0px 57px 0px rgba(0, 0, 0, 0.41);
+        box-shadow: 0px 0px 57px 0px rgba(0, 0, 0, 0.41);
+      }
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: larger;
+      }
+      p {
+        background-color: bisque;
+        border-radius: 4px;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Object</h2>
+    <p>
+      Hayotdan misol qiladigan bo'lsak undagi har bir barsa obyekt. Masalan
+      olaganda odam. Uni ismi, familiyasi, yoshi, istaklari, biror hodisaga
+      nisbatan javob harakatlari ( gapirish, o'qish, ovqat yeyishi), oila
+      azolari haqida malumotlar mavjud. Javascriptda aynan shu malumotlarni
+      o'zida jamlagan obyekt ko'rinishi quyidagicha:
+    </p>
+    <img src="./img/Screenshot_19.png" alt="" width="600" height="400" />
+    <p>
+      Obyekt 2 qismdan iborat. chap qismi, bu obyekt xususiyatlari (familiya,
+      ism, yosh).Ular javascriptda key dab ham ataladi. 2-qism parametr qiymati
+      valyu deb ataladi ('Muxammadaziz', 'Alijonov', 14). Buni boshqacharoq ham
+      tarivlash mumkin: Obyekt shunchaki birnechta o'zgarunchilar to'plami.
+      O'zgaruvchilar har xil turda bo'lishi ahamiyatsiz. Esingizda bo'lsa
+      massivga ham shunaqa tarif berdan edik (massiv ko'p sondagi o'zgaruvchilar
+      yig'indisi, uning elementlari turlari har xil bo'lishi mumkin).
+    </p>
+    <div style="display: flex; gap: 70px">
+      <p>
+        <b
+          >Lekin aslida massiv ham obyektning xususiy holi. Javascriptda hamma
+          narsa obyekt. String, sonli o'zgaruvchilar funksiyalar ham
+          obyekt(obyektning hususiy hollari).</b
+        >
+        <br />
+        Obyekt yaratishning 2 xil usuli mavjud:
+      </p>
+      <img src="./img/Screenshot_20.png" alt="" width="500" height="150" />
+    </div>
+    <p><b>Ikkalasi ham bir xilda ishlaydi.</b></p>
+    <p>
+      Quyidagi misolni ko'ring, Unda obyek metodlari bilan ishlash, metod va
+      xususiyat(property)larni ishlatish ko'rsatilgan
+    </p>
+    <img src="./img/Screenshot_21.png" alt="" width="800" height="500" />
+    <p>
+      <b> this</b> - global scope holatida window objectini qaytaradi. window ==
+      this -> true <br />
+      Agar this kalit so'zi - object ichidahi method (funtion) da ishlatilinsa,
+      bunda osha method (funtion) e'lon qilingan objectga teng bo'ladi
+    </p>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
